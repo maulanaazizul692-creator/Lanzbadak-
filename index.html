@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LanzBadak</title>
+<style>
+body{
+background:#121212;
+color:white;
+font-family:Arial;
+text-align:center;
+padding-top:100px;
+}
+input,button{
+padding:10px;
+margin:5px;
+}
+button{
+background:#1976D2;
+color:white;
+border:none;
+}
+</style>
+</head>
+<body>
+
+<h1>LANZBADAK</h1>
+
+<input type="text" id="user" placeholder="Username"><br>
+<input type="password" id="pass" placeholder="Password"><br>
+
+<button onclick="login()">MASUK</button>
+
+<script>
+function login(){
+let u=document.getElementById("user").value;
+let p=document.getElementById("pass").value;
+
+if(u==="lanzz" && p==="gg123"){
+alert("Login Berhasil");
+}else{
+alert("Username atau Password Salah");
+}
+}
+</script>
+
+</body>
+</html>
